@@ -79,7 +79,7 @@ header{
 
     color: blue;
 
-}
+} 
 
 
 
@@ -104,6 +104,7 @@ header{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     padding: 20px;
+    font-weight: bolder;
     grid-area: colores2;
     
 
@@ -452,11 +453,14 @@ form input{
 
 
 /*Card*/
-.container{
+
+.contenedor12{
 
     display: flex;
     justify-content: center;
     background-image: url(../img/fondo-suelo-textura-madera-blanca_53876-63634.webp);
+    background-size: auto;
+    margin-top: -800px;
     
 
 }
@@ -522,7 +526,7 @@ form input{
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
 
-}
+} 
 
 .titulo-elegir{
 
@@ -531,6 +535,7 @@ form input{
     font-family: 'Poppins', sans-serif;
     padding: 30px;
     font-size: 40px;
+    margin-bottom: 800px;
     background-image: url(../img/fondo-suelo-textura-madera-blanca_53876-63634.webp);
     background-size: cover;
     
@@ -835,7 +840,7 @@ footer .copy{
         
     
     
-    }
+    } 
 
     /*Tarjetas*/
 
@@ -852,7 +857,7 @@ footer .copy{
         
     }
 
-    .container{
+    .contenedor12{
 
         display: flex;
         justify-content: center;
@@ -968,7 +973,7 @@ footer .copy{
         
         
     
-    }
+    }  
 
 
 
@@ -2468,9 +2473,13 @@ footer .copy{
 
 
 
-}
+} 
 
-/*PC PORTFOLIO*/
+.carrousel{
+
+    margin-top: 20px;
+
+}
 
 
 
