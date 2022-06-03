@@ -317,10 +317,16 @@ form input{
 
 .centrar{
 
-    margin-left: -400px;
+    margin-left: -0px;
     margin-bottom: 20px;
     padding: 40px;
     
+
+}
+
+.imagenres{
+
+    height: 240px;
 
 }
 
@@ -926,6 +932,20 @@ footer .copy{
 
 }
 
+/*media sobremi*/
+
+@media(max-width:480px){
+
+
+
+    .imagenres{
+
+        height: 250px;
+        min-width: 200px;
+
+    }
+
+}
 
 
 
