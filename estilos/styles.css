@@ -451,6 +451,15 @@ form input{
     margin: 30px;
     border: 10px black double;
     
+    
+    
+
+}
+
+.cards:hover{
+
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    
 
 }
 
@@ -531,8 +540,10 @@ form input{
 .card{
 
     margin: 40px;
+    
 
 }
+
 
 .cardport{
 
