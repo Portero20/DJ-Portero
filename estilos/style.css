@@ -592,6 +592,13 @@ form input {
     -webkit-transform-origin: bottom left;
             transform-origin: bottom left;
   }
+  #promo-video {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 146px;
+    width: 120px;
+  }
 }
 
 /*media form*/
