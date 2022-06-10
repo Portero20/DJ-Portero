@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*variable de color blanco para los titulos y subtitulos del index*/
 /*Estilos generales todas las secciones*/
 /*Reseteo*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap");
@@ -141,6 +142,13 @@ main .grilla4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+main #promo-video {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 130px;
 }
 
 main .colores2 {
