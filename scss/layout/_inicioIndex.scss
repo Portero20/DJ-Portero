@@ -63,9 +63,29 @@ main{
             text-align: center;
     
         } 
+
+        .colores2{
+
+
+            color: black;
+            margin-top: 20px;
+            margin-left: 24px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 30px;
+            padding: 20px;
+            font-weight: bolder;
+            grid-area: colores2;
+            
+        
+        }
+
+        
+        
+    
         
     
     }
+
     .grilla4{
 
         display: flex;
@@ -86,22 +106,6 @@ main{
         width: 400px;
         
     
-    
-    }
-    
-
-    .colores2{
-
-
-        color: black;
-        margin-top: 20px;
-        margin-left: 24px;
-        font-family: 'Poppins', sans-serif;
-        font-size: 30px;
-        padding: 20px;
-        font-weight: bolder;
-        grid-area: colores2;
-        
     
     }
     

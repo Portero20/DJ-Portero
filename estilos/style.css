@@ -128,6 +128,17 @@ main .video-txt h2 {
   text-align: center;
 }
 
+main .video-txt .colores2 {
+  color: black;
+  margin-top: 20px;
+  margin-left: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: bolder;
+  grid-area: colores2;
+}
+
 main .grilla4 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -150,17 +161,6 @@ main #promo-video {
   margin-bottom: 10px;
   height: 169px;
   width: 400px;
-}
-
-main .colores2 {
-  color: black;
-  margin-top: 20px;
-  margin-left: 24px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 30px;
-  padding: 20px;
-  font-weight: bolder;
-  grid-area: colores2;
 }
 
 main .info {
