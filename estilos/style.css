@@ -132,10 +132,10 @@ main .grilla4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -148,7 +148,8 @@ main #promo-video {
   margin-top: 30px;
   margin-left: 10px;
   margin-bottom: 10px;
-  height: 130px;
+  height: 169px;
+  width: 400px;
 }
 
 main .colores2 {
@@ -597,7 +598,7 @@ form input {
     margin-left: 10px;
     margin-bottom: 10px;
     height: 146px;
-    width: 220px;
+    width: 300px;
   }
 }
 
