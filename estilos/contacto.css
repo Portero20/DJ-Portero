@@ -1,0 +1,22 @@
+.grilla5 {
+  background-color: #31384A;
+  margin-top: -30px;
+  margin-bottom: -50px;
+  padding: 40px;
+}
+
+.grilla5 .duda-sugerencia {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffff;
+}
+
+.grilla5 .duda-sugerencia h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.grilla5 .duda-sugerencia h3 {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=contacto.css.map */

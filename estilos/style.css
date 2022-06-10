@@ -1,0 +1,681 @@
+@charset "UTF-8";
+/*Estilos generales todas las secciones*/
+/*Reseteo*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Estilo general para el body*/
+body {
+  background-color: #8E9AAF;
+}
+
+/*Barra de navegacion bootstrap*/
+header .navigator {
+  padding: 0px;
+}
+
+header .navigator a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+/*Icono barra de navegación*/
+.icono {
+  height: 35px;
+  margin-left: -0px;
+}
+
+/*Footer en todas las seccione*/
+footer {
+  background-color: white;
+  padding: 10px;
+}
+
+footer .titulo-seccion {
+  color: black;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+footer .copy {
+  color: black;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+footer .redes-sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .redes-sociales i {
+  font-size: 25px;
+  padding: 20px;
+  color: black;
+}
+
+footer .contenedor h2 {
+  font-size: 25px;
+}
+
+/*Index SAS*/
+main .inicio {
+  margin-top: -30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/32052.jpg);
+  margin-bottom: -10px;
+  padding: 60px;
+}
+
+main .inicio .titulo {
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 30px;
+  padding: 35px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+main .inicio #subtitulo1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+main .inicio #subtitulo2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+main .inicio #subtitulo3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+main .video-txt {
+  background-image: url(../img/fondo-color-degradado-gris-blanco-abstracto_125759-204.webp);
+  margin-bottom: -20px;
+  padding: 60px;
+  grid-area: video-txt;
+}
+
+main .video-txt h2 {
+  text-align: center;
+}
+
+main .grilla4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .colores2 {
+  color: black;
+  margin-top: 20px;
+  margin-left: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: bolder;
+  grid-area: colores2;
+}
+
+main .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .imagenexe {
+  margin-left: 0px;
+}
+
+main .titulo-elegir {
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  padding: 30px;
+  font-size: 40px;
+  margin-bottom: 800px;
+  background-image: url(../img/fondo-suelo-textura-madera-blanca_53876-63634.webp);
+  background-size: cover;
+}
+
+main .contenedor12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../img/fondo-suelo-textura-madera-blanca_53876-63634.webp);
+  background-size: auto;
+  margin-top: -800px;
+}
+
+main .contenedor12 .cards {
+  background-color: white;
+  width: 270px;
+  height: 400px;
+  margin: 30px;
+  border: 10px black double;
+}
+
+main .contenedor12 .cards h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+main .contenedor12 .cards p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+main .contenedor12 .cards .imagen-card {
+  background-color: white;
+  height: 240px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+main .contenedor12 .cards .tarjeta1 {
+  background-image: url(../img/Dinero.jpg);
+}
+
+main .contenedor12 .cards .tarjeta2 {
+  background-image: url(../img/546955912_168440815_1024x576.jpg);
+  background-position: center;
+}
+
+main .contenedor12 .cards .tarjeta3 {
+  background: url(../img/inshow-party.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main .preguntas h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  padding: 20px;
+  background-color: white;
+}
+
+main .preguntas .accordion {
+  margin-top: -10px;
+}
+
+main .preguntas .accordion-item {
+  padding: 0;
+}
+
+main .preguntas .accordion-item button {
+  font-weight: bolder;
+}
+
+.grilla5 {
+  background-color: #31384A;
+  margin-top: -30px;
+  margin-bottom: -50px;
+  padding: 40px;
+}
+
+.grilla5 .duda-sugerencia {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffff;
+}
+
+.grilla5 .duda-sugerencia h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+.grilla5 .duda-sugerencia h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+/*Hover y After enlaces barra de navegación*/
+.pse-enlaces {
+  display: inline-block;
+  position: relative;
+}
+
+.pse-enlaces::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.6s ease-out;
+  transition: -webkit-transform 0.6s ease-out;
+  transition: transform 0.6s ease-out;
+  transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
+}
+
+.pse-enlaces:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+/*Hover cards: seccion "Por que elegirme" del index*/
+.cards:hover {
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+/*Imagenes*/
+img {
+  margin-left: 420px;
+}
+
+/*Inicio*/
+#promo-video {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 146px;
+}
+
+/*Contacto-Formulario*/
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+form h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+form input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+form textarea {
+  min-height: 100px;
+  max-height: 0px;
+  max-width: 500px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+#boton {
+  background-color: #31384A;
+  color: #ffff;
+  padding: 20px;
+}
+
+#boton:hover {
+  cursor: pointer;
+}
+
+form input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+/*Info-Quehago*/
+.quiensoy p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quiensoy {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 0px;
+  grid-area: quiensoy;
+}
+
+.centrar {
+  margin-left: -0px;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+.imagenres {
+  height: 240px;
+}
+
+/*Card*/
+.imagentarj {
+  margin-left: 0px;
+}
+
+.card {
+  margin: 40px;
+}
+
+.cardport {
+  margin-left: 0px;
+}
+
+.cardport1 {
+  margin-left: 0px;
+  height: 290px;
+}
+
+/*Servicios*/
+.titulo-servicios {
+  text-align: center;
+  padding: 70px;
+  font-size: 30px;
+  margin-top: -30px;
+  margin-bottom: -20px;
+  background-image: url(../img/fondo-blog.png);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+/*Grillas*/
+#grilla {
+  background-image: url(../img/fondo-blog.png);
+  background-size: cover;
+  padding: 70px;
+  margin-top: -100px;
+}
+
+#grilla2 {
+  background-image: url(../img/fondo-blog.png);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 2fr;
+      grid-template-columns: 2fr 2fr 2fr;
+  -ms-grid-rows: 2fr 2fr 2fr;
+      grid-template-rows: 2fr 2fr 2fr;
+  gap: 80px;
+}
+
+#grilla3 {
+  background-image: url(../img/fondo-blog.png);
+}
+
+/*Portoflio*/
+.titulo-portfolio {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  margin-top: -5px;
+  font-size: 20px;
+  text-align: center;
+  background-image: url(../img/fondo-blog.png);
+  padding: 50px;
+}
+
+.titulo-portfolio h2 {
+  font-weight: bolder;
+}
+
+/*Videos Portfolio*/
+.edt-port {
+  margin-top: 40px;
+  margin-left: 30px;
+  border: 20px groove white;
+  border-radius: 20px;
+}
+
+.video-port1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 300px;
+}
+
+.video-port1 p {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+}
+
+#grilla3 h2 {
+  margin-left: 610px;
+}
+
+.slide {
+  margin-top: 0px;
+}
+
+.slide img {
+  height: 65vh;
+}
+
+.carrousel {
+  margin-top: 20px;
+}
+
+/*media index*/
+@media (max-width: 480px) {
+  .contenedor12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: url(../img/fondo-suelo-textura-madera-blanca_53876-63634.webp);
+    background-size: auto;
+    margin-top: -800px;
+  }
+  .grilla4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pse-enlaces::after {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.6s ease-out;
+    transition: -webkit-transform 0.6s ease-out;
+    transition: transform 0.6s ease-out;
+    transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
+  }
+  .pse-enlaces:hover:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+  }
+}
+
+/*media form*/
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
+}
+
+/*media portfolio*/
+@media (max-width: 1272px) {
+  #grilla2 {
+    background-color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr;
+        grid-template-columns: 2fr;
+    -ms-grid-rows: 2fr;
+        grid-template-rows: 2fr;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 1252px) {
+  #grilla2 {
+    background-color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 2fr;
+        grid-template-columns: 2fr 2fr;
+    -ms-grid-rows: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 804px) {
+  #grilla2 {
+    background-color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr;
+        grid-template-columns: 2fr;
+    -ms-grid-rows: 2fr;
+        grid-template-rows: 2fr;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 804px) {
+  #grilla2 {
+    background-color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 2fr;
+        grid-template-columns: 2fr 2fr;
+    -ms-grid-rows: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  #grilla2 {
+    background-color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr;
+        grid-template-columns: 2fr;
+    -ms-grid-rows: 2fr;
+        grid-template-rows: 2fr;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  #grilla2 {
+    background-color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr;
+        grid-template-columns: 2fr;
+    -ms-grid-rows: 2fr;
+        grid-template-rows: 2fr;
+    gap: 80px;
+  }
+}
+
+/*media sobremi*/
+@media (max-width: 480px) {
+  .imagenres {
+    height: 220px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

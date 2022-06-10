@@ -1,0 +1,109 @@
+/*Estilos generales todas las secciones*/
+
+/*Reseteo*/
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+    
+
+}
+
+/*Estilo general para el body*/
+
+body{
+
+    background-color: #8E9AAF;
+    
+
+}
+
+/*Barra de navegacion bootstrap*/
+
+header{
+
+    .navigator{
+
+        padding: 0px;
+
+        a{
+
+            font-family: 'Poppins', sans-serif; 
+            font-weight: bolder;
+            font-size: 15px;
+            color: black;
+            text-decoration: none;
+        
+        
+        } 
+
+    }
+
+}
+
+/*Icono barra de navegación*/
+
+.icono{
+
+    height: 35px;
+    margin-left: -0px;
+
+}
+
+
+/*Footer en todas las seccione*/
+
+footer{
+
+    background-color: white;
+    padding: 10px;
+
+
+    .titulo-seccion{
+
+        color: black;
+        text-align: center;
+        padding: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+
+    }
+    .copy{
+
+        color: black;
+        text-align: center;
+        padding: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+    
+    
+    }
+    .redes-sociales{
+
+
+        display: flex;
+        justify-content: center;
+
+        i{
+
+            font-size: 25px;
+            padding: 20px;
+            color: black;
+        
+        }
+    
+    }
+    .contenedor{
+
+        h2{
+
+            font-size: 25px;
+        
+        }
+    }
+
+}

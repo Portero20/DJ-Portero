@@ -1,0 +1,235 @@
+/*Index SAS*/
+
+main{
+
+    .inicio{
+
+        margin-top: -30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/32052.jpg);
+        margin-bottom: -10px;
+        padding: 60px;
+
+        .titulo{
+
+            color: $titulo-subColor;
+            font-weight: bolder;
+            font-size: 40px;
+            margin-top: 30px;
+            padding: 35px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        #subtitulo1{
+
+            color: $titulo-subColor;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+        
+        
+        }
+        
+        #subtitulo2{
+        
+            color: $titulo-subColor;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+        
+        }
+        
+        #subtitulo3{
+        
+            color: $titulo-subColor;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+        
+        }
+
+    }
+
+    .video-txt{
+
+        background-image: url(../img/fondo-color-degradado-gris-blanco-abstracto_125759-204.webp);
+        margin-bottom: -20px;
+        padding: 60px;
+        grid-area: video-txt;
+
+        h2{
+
+            text-align: center;
+    
+        } 
+        
+    
+    }
+    .grilla4{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .colores2{
+
+
+        color: black;
+        margin-top: 20px;
+        margin-left: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        padding: 20px;
+        font-weight: bolder;
+        grid-area: colores2;
+        
+    
+    }
+    
+
+    .info{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+    .imagenexe{
+
+        margin-left: 0px;
+    
+    }
+
+    .titulo-elegir{
+
+
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        padding: 30px;
+        font-size: 40px;
+        margin-bottom: 800px;
+        background-image: url(../img/fondo-suelo-textura-madera-blanca_53876-63634.webp);
+        background-size: cover;
+        
+        
+    }
+
+    .contenedor12{
+
+        display: flex;
+        justify-content: center;
+        background-image: url(../img/fondo-suelo-textura-madera-blanca_53876-63634.webp);
+        background-size: auto;
+        margin-top: -800px;
+
+        .cards{
+
+            background-color: white;
+            width: 270px;
+            height: 400px;
+            margin: 30px;
+            border: 10px black double;
+
+            h2{
+
+
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                font-weight: bolder;
+                
+            
+            }
+
+            p{
+
+
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                font-weight: bolder;
+                
+                
+            
+            } 
+            
+            .imagen-card{
+
+
+                background-color: white;
+                height: 240px;
+                margin-bottom: 15px;
+                background-size: cover;
+                
+            
+            }
+            
+            .tarjeta1{
+            
+                background-image: url(../img/Dinero.jpg);
+                
+            
+            
+            }
+            
+            .tarjeta2{
+            
+            
+                background-image: url(../img/546955912_168440815_1024x576.jpg);
+                background-position: center;
+            
+            }
+            
+            .tarjeta3{
+            
+                background: url(../img/inshow-party.jpg);
+                background-size: cover;
+                background-position: center;
+                
+            
+            }
+
+            
+            
+        
+        }
+
+
+    }
+    .preguntas{
+
+        h2{
+
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bolder;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .accordion{
+
+            margin-top: -10px;
+        
+        }
+
+        .accordion-item{
+
+            padding: 0;
+
+            button{
+
+                font-weight: bolder;
+                
+
+            
+            }
+            
+
+        }
+
+    }
+    
+
+}
