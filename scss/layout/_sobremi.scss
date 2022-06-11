@@ -1,0 +1,41 @@
+#grilla3{
+
+    background-image: url(../img/fondo-blog.png);
+
+
+
+    .centrar{
+
+        margin-left: -0px;
+        margin-bottom: 20px;
+        padding: 40px;
+
+        .imagenres{
+
+            height: 240px;
+        
+        }
+        
+    
+    }
+    .quiensoy{
+
+        padding: 20px;
+        margin-bottom: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        margin-bottom: 0px;
+        grid-area: quiensoy;
+
+        p{
+
+            text-align: center;
+            margin-bottom: 20px;
+        
+        
+        }
+    
+    }
+
+}

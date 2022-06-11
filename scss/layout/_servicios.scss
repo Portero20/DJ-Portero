@@ -1,0 +1,51 @@
+/*Portfolio SASS*/
+main{
+
+    .titulo-servicios{
+
+        text-align: center;
+        padding: 70px;
+        font-size: 30px;
+        margin-top: -30px;
+        margin-bottom: -20px;
+        background-image: url(../img/fondo-blog.png);
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        
+    
+    }
+
+    #grilla{
+
+        background-image: url(../img/fondo-blog.png);
+        background-size: cover;
+        padding: 70px;
+        margin-top: -100px;
+
+        .card3{
+
+            margin: 40px;
+
+            .imagentarj{
+
+                margin-left: 0px;
+            
+            }
+            .card-cuerpo{
+
+                .botoncard{
+
+                    font-family: 'Poppins', sans-serif;
+
+                }
+
+            }
+
+        }
+
+
+    }
+
+
+}

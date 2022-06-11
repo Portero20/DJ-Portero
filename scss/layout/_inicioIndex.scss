@@ -78,6 +78,16 @@ main{
             
         
         }
+        #promo-video{
+    
+            margin-top: 30px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            height: 146px;
+            
+        
+        
+        }
 
         
         
@@ -114,6 +124,18 @@ main{
 
         display: flex;
         flex-direction: column;
+
+        .slide{
+
+            margin-top: 0px;
+
+            img{
+
+                height: 65vh;
+            
+            }
+        
+        }
 
     }
     .imagenexe{

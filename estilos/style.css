@@ -139,6 +139,13 @@ main .video-txt .colores2 {
   grid-area: colores2;
 }
 
+main .video-txt #promo-video {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 146px;
+}
+
 main .grilla4 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,6 +178,14 @@ main .info {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+main .info .slide {
+  margin-top: 0px;
+}
+
+main .info .slide img {
+  height: 65vh;
 }
 
 main .imagenexe {
@@ -286,6 +301,164 @@ main .preguntas .accordion-item button {
   font-size: 30px;
 }
 
+.grilla5 form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.grilla5 form h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.grilla5 form input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.grilla5 form input, .grilla5 form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+.grilla5 form textarea {
+  min-height: 100px;
+  max-height: 0px;
+  max-width: 500px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.grilla5 form #boton {
+  background-color: #31384A;
+  color: #ffff;
+  padding: 20px;
+}
+
+.grilla5 form #boton:hover {
+  cursor: pointer;
+}
+
+/*Portfolio SASS*/
+main .titulo-servicios {
+  text-align: center;
+  padding: 70px;
+  font-size: 30px;
+  margin-top: -30px;
+  margin-bottom: -20px;
+  background-image: url(../img/fondo-blog.png);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+main #grilla {
+  background-image: url(../img/fondo-blog.png);
+  background-size: cover;
+  padding: 70px;
+  margin-top: -100px;
+}
+
+main #grilla .card3 {
+  margin: 40px;
+}
+
+main #grilla .card3 .imagentarj {
+  margin-left: 0px;
+}
+
+main #grilla .card3 .card-cuerpo .botoncard {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Portfolio SASS*/
+.titulo-portfolio {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  margin-top: -5px;
+  font-size: 20px;
+  text-align: center;
+  background-image: url(../img/fondo-blog.png);
+  padding: 50px;
+}
+
+.titulo-portfolio h2 {
+  font-weight: bolder;
+}
+
+#grilla2 {
+  background-image: url(../img/fondo-blog.png);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr 2fr;
+      grid-template-columns: 2fr 2fr 2fr;
+  -ms-grid-rows: 2fr 2fr 2fr;
+      grid-template-rows: 2fr 2fr 2fr;
+  gap: 80px;
+}
+
+#grilla2 .card2 {
+  margin: 40px;
+}
+
+#grilla2 .card2 .cardport1 {
+  margin-left: 0px;
+  height: 290px;
+}
+
+#grilla2 .card2 .cardport {
+  margin-left: 0px;
+}
+
+#grilla2 .card2 .card-cuerpo2 .botoncard-port {
+  font-family: 'Poppins', sans-serif;
+}
+
+#grilla3 {
+  background-image: url(../img/fondo-blog.png);
+}
+
+#grilla3 .centrar {
+  margin-left: -0px;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+#grilla3 .centrar .imagenres {
+  height: 240px;
+}
+
+#grilla3 .quiensoy {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 0px;
+  grid-area: quiensoy;
+}
+
+#grilla3 .quiensoy p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 /*Hover y After enlaces barra de navegación*/
 .pse-enlaces {
   display: inline-block;
@@ -321,209 +494,6 @@ main .preguntas .accordion-item button {
 .cards:hover {
   -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
           box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-}
-
-/*Imagenes*/
-img {
-  margin-left: 420px;
-}
-
-/*Inicio*/
-#promo-video {
-  margin-top: 30px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  height: 146px;
-}
-
-/*Contacto-Formulario*/
-form {
-  width: 450px;
-  margin: auto;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 10px 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-top: 50px;
-  border-radius: 10px;
-  margin-bottom: 50px;
-}
-
-form h2 {
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  color: white;
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-form input, textarea {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 17px;
-  border: none;
-}
-
-form textarea {
-  min-height: 100px;
-  max-height: 0px;
-  max-width: 500px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bolder;
-}
-
-#boton {
-  background-color: #31384A;
-  color: #ffff;
-  padding: 20px;
-}
-
-#boton:hover {
-  cursor: pointer;
-}
-
-form input {
-  font-family: 'Poppins', sans-serif;
-  font-weight: bolder;
-}
-
-/*Info-Quehago*/
-.quiensoy p {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.quiensoy {
-  padding: 20px;
-  margin-bottom: 30px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bolder;
-  font-size: 30px;
-  margin-bottom: 0px;
-  grid-area: quiensoy;
-}
-
-.centrar {
-  margin-left: -0px;
-  margin-bottom: 20px;
-  padding: 40px;
-}
-
-.imagenres {
-  height: 240px;
-}
-
-/*Card*/
-.imagentarj {
-  margin-left: 0px;
-}
-
-.card {
-  margin: 40px;
-}
-
-.cardport {
-  margin-left: 0px;
-}
-
-.cardport1 {
-  margin-left: 0px;
-  height: 290px;
-}
-
-/*Servicios*/
-.titulo-servicios {
-  text-align: center;
-  padding: 70px;
-  font-size: 30px;
-  margin-top: -30px;
-  margin-bottom: -20px;
-  background-image: url(../img/fondo-blog.png);
-  background-size: cover;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bolder;
-}
-
-/*Grillas*/
-#grilla {
-  background-image: url(../img/fondo-blog.png);
-  background-size: cover;
-  padding: 70px;
-  margin-top: -100px;
-}
-
-#grilla2 {
-  background-image: url(../img/fondo-blog.png);
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2fr 2fr 2fr;
-      grid-template-columns: 2fr 2fr 2fr;
-  -ms-grid-rows: 2fr 2fr 2fr;
-      grid-template-rows: 2fr 2fr 2fr;
-  gap: 80px;
-}
-
-#grilla3 {
-  background-image: url(../img/fondo-blog.png);
-}
-
-/*Portoflio*/
-.titulo-portfolio {
-  font-family: 'Poppins', sans-serif;
-  font-weight: bolder;
-  margin-top: -5px;
-  font-size: 20px;
-  text-align: center;
-  background-image: url(../img/fondo-blog.png);
-  padding: 50px;
-}
-
-.titulo-portfolio h2 {
-  font-weight: bolder;
-}
-
-/*Videos Portfolio*/
-.edt-port {
-  margin-top: 40px;
-  margin-left: 30px;
-  border: 20px groove white;
-  border-radius: 20px;
-}
-
-.video-port1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 300px;
-}
-
-.video-port1 p {
-  font-size: 30px;
-  font-weight: bolder;
-  font-family: 'Poppins', sans-serif;
-}
-
-#grilla3 h2 {
-  margin-left: 610px;
-}
-
-.slide {
-  margin-top: 0px;
-}
-
-.slide img {
-  height: 65vh;
-}
-
-.carrousel {
-  margin-top: 20px;
 }
 
 /*media index*/
@@ -615,10 +585,10 @@ form input {
     background-color: white;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 2fr;
-        grid-template-columns: 2fr;
-    -ms-grid-rows: 2fr;
-        grid-template-rows: 2fr;
+    -ms-grid-columns: 2fr 2fr;
+        grid-template-columns: 2fr 2fr;
+    -ms-grid-rows: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
     gap: 80px;
   }
 }

@@ -1,0 +1,66 @@
+/*Portfolio SASS*/
+
+
+    .titulo-portfolio{
+
+
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        margin-top: -5px;
+        font-size: 20px;
+        text-align: center;
+        background-image: url(../img/fondo-blog.png);
+        padding: 50px;
+
+        h2{
+
+            font-weight: bolder;
+        
+        }
+        
+
+    
+    
+    }
+
+    #grilla2{
+
+        background-image: url(../img/fondo-blog.png);
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 2fr 2fr 2fr;
+        gap: 80px;
+
+        .card2{
+
+            margin: 40px;
+
+            .cardport1{
+
+                margin-left: 0px;
+                height: 290px;
+            
+            }
+            .cardport{
+
+                margin-left: 0px;
+                
+            
+            }
+            .card-cuerpo2{
+
+                .botoncard-port{
+
+                    font-family: 'Poppins', sans-serif;
+
+                }
+
+            }
+
+        }
+        
+        
+        
+    
+    }
+
