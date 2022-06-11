@@ -301,7 +301,7 @@ main .preguntas .accordion-item button {
   font-size: 30px;
 }
 
-.grilla5 form {
+form {
   width: 450px;
   margin: auto;
   background: rgba(0, 0, 0, 0.3);
@@ -313,7 +313,7 @@ main .preguntas .accordion-item button {
   margin-bottom: 50px;
 }
 
-.grilla5 form h2 {
+form h2 {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   color: white;
@@ -322,12 +322,12 @@ main .preguntas .accordion-item button {
   margin-bottom: 20px;
 }
 
-.grilla5 form input {
+form input {
   font-family: 'Poppins', sans-serif;
   font-weight: bolder;
 }
 
-.grilla5 form input, .grilla5 form textarea {
+form input, form textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
@@ -337,7 +337,7 @@ main .preguntas .accordion-item button {
   border: none;
 }
 
-.grilla5 form textarea {
+form textarea {
   min-height: 100px;
   max-height: 0px;
   max-width: 500px;
@@ -345,13 +345,13 @@ main .preguntas .accordion-item button {
   font-weight: bolder;
 }
 
-.grilla5 form #boton {
+form #boton {
   background-color: #31384A;
   color: #ffff;
   padding: 20px;
 }
 
-.grilla5 form #boton:hover {
+form #boton:hover {
   cursor: pointer;
 }
 
