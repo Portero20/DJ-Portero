@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/*variable de color blanco para los titulos y subtitulos del index*/
+/*Variable de color blanco para los titulos y subtitulos del index (DJ PORTERO, CALIDAD, PRECIO Y DIVERSIÓN)*/
+/*Background color grilla5 sección contacto*/
 /*Estilos generales todas las secciones*/
 /*Reseteo*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap");
@@ -34,7 +35,7 @@ header .navigator a {
   margin-left: -0px;
 }
 
-/*Footer en todas las seccione*/
+/*Footer en todas las secciones*/
 footer {
   background-color: white;
   padding: 10px;
@@ -76,7 +77,7 @@ footer .contenedor h2 {
   font-size: 25px;
 }
 
-/*Index SAS*/
+/*Index SASS*/
 main .inicio {
   margin-top: -30px;
   background-repeat: no-repeat;
@@ -277,6 +278,7 @@ main .preguntas .accordion-item button {
   font-weight: bolder;
 }
 
+/*Sección Contacto SASS*/
 .grilla5 {
   background-color: #31384A;
   margin-top: -30px;
@@ -355,7 +357,7 @@ form #boton:hover {
   cursor: pointer;
 }
 
-/*Portfolio SASS*/
+/*Sección Servicios SASS*/
 main .titulo-servicios {
   text-align: center;
   padding: 70px;
@@ -387,7 +389,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
   font-family: 'Poppins', sans-serif;
 }
 
-/*Portfolio SASS*/
+/*Sección Portfolio SASS*/
 .titulo-portfolio {
   font-family: 'Poppins', sans-serif;
   font-weight: bolder;
@@ -430,6 +432,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
   font-family: 'Poppins', sans-serif;
 }
 
+/*Sección Sobre Mi SASS*/
 #grilla3 {
   background-image: url(../img/fondo-blog.png);
 }
@@ -459,7 +462,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
   margin-bottom: 20px;
 }
 
-/*Hover y After enlaces barra de navegación*/
+/*Hover y After enlaces para la barra de navegación*/
 .pse-enlaces {
   display: inline-block;
   position: relative;
@@ -496,6 +499,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
           box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
 
+/*Solo quedan imports y medias queries*/
 /*media index*/
 @media (max-width: 480px) {
   .contenedor12 {
