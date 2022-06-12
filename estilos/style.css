@@ -474,13 +474,13 @@ main #grilla .card3 .card-cuerpo .botoncard {
 }
 
 #grilla3 .centrar {
-  margin-left: -0px;
+  margin-left: -20px;
   margin-bottom: 20px;
   padding: 40px;
 }
 
 #grilla3 .centrar .imagenres {
-  height: 240px;
+  height: 220px;
 }
 
 #grilla3 .quiensoy {
@@ -701,7 +701,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
 /*media sobremi*/
 @media (max-width: 480px) {
   .imagenres {
-    height: 220px;
+    height: 210px;
   }
 }
 /*# sourceMappingURL=style.css.map */
