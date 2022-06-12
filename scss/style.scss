@@ -1,3 +1,4 @@
+/*Imports SASS*/
 @import "../scss/utilities/variables.scss";
 @import "../scss/base/generales";
 @import "../scss/layout/inicioIndex";
@@ -9,9 +10,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap');
 
 
-/*Solo quedan imports y medias queries*/
 
-/*media index*/
+
+
+/*De aquí para abajo estan los medias queries que utilice*/
+
+/*Media index solo 480px*/
 
 @media(max-width:480px){
 
@@ -86,7 +90,7 @@
 
 }
 
-/*media form*/
+/*Media form solo de 480px*/
 
 @media(max-width:480px){
 
@@ -100,7 +104,7 @@
 
 }
 
-/*media portfolio*/
+/*Media portfolio desde 1272px hasta 480px*/
 
 @media (max-width:1272px){
 
@@ -199,7 +203,8 @@
 
 }
 
-/*media sobremi*/
+
+/*Media sobremi solo de 480px*/
 
 @media(max-width:480px){
 

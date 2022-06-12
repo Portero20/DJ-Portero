@@ -1,6 +1,8 @@
 @charset "UTF-8";
+/*Imports SASS*/
 /*Variable de color blanco para los titulos y subtitulos del index (DJ PORTERO, CALIDAD, PRECIO Y DIVERSIÓN)*/
-/*Background color grilla5 sección contacto*/
+/*Background color grilla5 sección Contacto*/
+/*Color negro para la clase colores2 del subtitulo "Solo para divertidos"*/
 /*Estilos generales todas las secciones*/
 /*Reseteo*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap");
@@ -16,7 +18,7 @@ body {
   background-color: #8E9AAF;
 }
 
-/*Barra de navegacion bootstrap*/
+/*Barra de navegación bootstrap*/
 header .navigator {
   padding: 0px;
 }
@@ -535,8 +537,8 @@ main #grilla .card3 .card-cuerpo .botoncard {
           box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
 
-/*Solo quedan imports y medias queries*/
-/*media index*/
+/*De aquí para abajo estan los medias queries que utilice*/
+/*Media index solo 480px*/
 @media (max-width: 480px) {
   .contenedor12 {
     display: -webkit-box;
@@ -612,14 +614,14 @@ main #grilla .card3 .card-cuerpo .botoncard {
   }
 }
 
-/*media form*/
+/*Media form solo de 480px*/
 @media (max-width: 480px) {
   form {
     width: 100%;
   }
 }
 
-/*media portfolio*/
+/*Media portfolio desde 1272px hasta 480px*/
 @media (max-width: 1272px) {
   #grilla2 {
     background-color: white;
@@ -698,7 +700,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
   }
 }
 
-/*media sobremi*/
+/*Media sobremi solo de 480px*/
 @media (max-width: 480px) {
   .imagenres {
     height: 210px;
