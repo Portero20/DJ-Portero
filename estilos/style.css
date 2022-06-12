@@ -385,6 +385,16 @@ main #grilla .card3 .imagentarj {
   margin-left: 0px;
 }
 
+main #grilla .card3 .card-cuerpo h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+main #grilla .card3 .card-cuerpo p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
 main #grilla .card3 .card-cuerpo .botoncard {
   font-family: 'Poppins', sans-serif;
 }
@@ -426,6 +436,16 @@ main #grilla .card3 .card-cuerpo .botoncard {
 
 #grilla2 .card2 .cardport {
   margin-left: 0px;
+}
+
+#grilla2 .card2 .card-cuerpo2 h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+#grilla2 .card2 .card-cuerpo2 p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
 }
 
 #grilla2 .card2 .card-cuerpo2 .botoncard-port {
