@@ -73,6 +73,22 @@ footer .redes-sociales i {
   color: black;
 }
 
+footer .redes-sociales .wspcolor {
+  color: #25dd66;
+}
+
+footer .redes-sociales .instacolor {
+  color: #e4405f;
+}
+
+footer .redes-sociales .twcolor {
+  color: cornflowerblue;
+}
+
+footer .redes-sociales .ytcolor {
+  color: red;
+}
+
 footer .contenedor h2 {
   font-size: 25px;
 }
