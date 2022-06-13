@@ -147,10 +147,6 @@ main .video-txt {
   grid-area: video-txt;
 }
 
-main .video-txt h2 {
-  text-align: center;
-}
-
 main .video-txt .colores2 {
   color: black;
   margin-top: 20px;
