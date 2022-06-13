@@ -65,9 +65,7 @@
                     <h5 class="card-title">Iluminación</h5>
                     <p class="card-text">Luces led para que tus fiestas o eventos sean fantasticas.</p>
                     <p class="card-text"><small class="text-muted">Hace 3 minutos.</small></p>
-                    <button type="button" class="botoncard" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Adquirir
-                    </button>
+                    <button type="button" class="botoncard" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Adquirir</button>
                   </div>
                 </div>
                 <div class="card card3" data-aos="fade-up">
@@ -125,23 +123,32 @@
 
 
     <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Felicitaciones!</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Usted a adquirido el servicio correctamente!
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Entendido</button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title titulo-modal" id="exampleModalLabel">Adquirir Servicio</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label modal-letra">E-mail:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label modal-letra">Mensaje:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="modal-boton" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="modal-boton">Enviar mensaje</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
