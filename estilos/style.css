@@ -500,7 +500,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
 }
 
 #grilla3 .centrar .imagenres {
-  height: 250px;
+  height: 213px;
 }
 
 #grilla3 .quiensoy {
@@ -744,7 +744,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
 /*Media sobremi solo de 480px*/
 @media (max-width: 480px) {
   .imagenres {
-    height: 220px;
+    height: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */
