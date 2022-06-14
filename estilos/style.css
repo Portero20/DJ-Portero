@@ -578,7 +578,6 @@ main #grilla .card3 .card-cuerpo .botoncard {
           box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
 }
 
-/*De aquí para abajo estan los medias queries que utilice*/
 /*Media index solo 480px*/
 @media (max-width: 480px) {
   .contenedor12 {
@@ -747,4 +746,6 @@ main #grilla .card3 .card-cuerpo .botoncard {
     height: 200px;
   }
 }
+
+/*Aquí solo me quedan imports*/
 /*# sourceMappingURL=style.css.map */
