@@ -1,0 +1,16 @@
+/*Creamos una clase generica*/
+
+.Previa-title{
+
+    color: blueviolet;
+
+}
+
+/*Clase de portafolio (previa4)*/
+.previa--titulo{
+
+    @extend .Previa-title;
+    color: #0B2545;
+    font-weight: 200;
+
+}

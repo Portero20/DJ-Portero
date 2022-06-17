@@ -1,0 +1,22 @@
+/*Mapa para el index en la parte del accordion de preguntas frecuentes*/
+
+/*Declaro el mapa*/
+
+$accordion-parra:(
+
+    texto1: #231F20,
+    texto2: #231F20,
+    texto3: #231F20,
+
+);
+
+/*Declaro la lista para usar los valores del mapa*/
+@each $accord, $letter in $accordion-parra{
+
+    .acco--#{$accord}{
+
+        color: $letter;
+
+    }
+
+}

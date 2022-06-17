@@ -1,0 +1,18 @@
+/*Declaramos el mixin, le ponemos un nombre y le declaramos sus claves*/
+@mixin letra ($color){
+
+
+    color: $color;
+    
+
+
+}
+
+/*Llamamos a las clases (Iluminacion, Maquina de humo y Ambientacion en la sección de Servicios)*/
+.iluminacion, .maquina-humo, .ambiente{
+
+    @include letra(#0B2545);
+    font-weight: 500;
+    
+
+}

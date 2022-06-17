@@ -92,6 +92,11 @@ main .inicio {
   margin-bottom: -10px;
   padding: 60px;
 }
+main .inicio .logocentrar .logoInicio {
+  height: 95px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
 main .inicio .titulo {
   color: white;
   font-weight: bolder;
@@ -127,10 +132,10 @@ main .video-txt {
 }
 main .video-txt .colores2 {
   color: black;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 24px;
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   padding: 20px;
   font-weight: bolder;
   grid-area: colores2;
@@ -138,8 +143,9 @@ main .video-txt .colores2 {
 main .video-txt #promo-video {
   margin-top: 30px;
   margin-left: 10px;
-  margin-bottom: 10px;
-  height: 146px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 250px;
 }
 main .grilla4 {
   display: flex;
@@ -408,6 +414,12 @@ main #grilla .card3 .card-cuerpo .botoncard {
   margin-bottom: 20px;
   padding: 40px;
 }
+#grilla3 .centrar h2 {
+  margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+}
 #grilla3 .centrar .imagenres {
   height: 213px;
 }
@@ -591,4 +603,37 @@ main #grilla .card3 .card-cuerpo .botoncard {
     height: 200px;
   }
 }
+/*Creamos una clase generica*/
+.Previa-title, .previa--titulo {
+  color: blueviolet;
+}
+
+/*Clase de portafolio (previa4)*/
+.previa--titulo {
+  color: #0B2545;
+  font-weight: 200;
+}
+
+/*Mapa para el index en la parte del accordion de preguntas frecuentes*/
+/*Declaro el mapa*/
+/*Declaro la lista para usar los valores del mapa*/
+.acco--texto1 {
+  color: #231F20;
+}
+
+.acco--texto2 {
+  color: #231F20;
+}
+
+.acco--texto3 {
+  color: #231F20;
+}
+
+/*Declaramos el mixin, le ponemos un nombre y le declaramos sus claves*/
+/*Llamamos a las clases (Iluminacion, Maquina de humo y Ambientacion en la sección de Servicios)*/
+.iluminacion, .maquina-humo, .ambiente {
+  color: #0B2545;
+  font-weight: 500;
+}
+
 /*Aquí solo me quedan imports*//*# sourceMappingURL=style.css.map */
