@@ -1,4 +1,4 @@
-/*Declaramos el mixin, le ponemos un nombre y le declaramos sus claves*/
+/*Declaramos un mixin generico en este caso de $color, le ponemos un nombre y le declaramos sus claves*/
 @mixin letra ($color){
 
 
@@ -11,7 +11,9 @@
 /*Llamamos a las clases (Iluminacion, Maquina de humo y Ambientacion en la sección de Servicios)*/
 .iluminacion, .maquina-humo, .ambiente{
 
-    @include letra(#0B2545);
+    /*Llamamos al mixin con include y le pasamos los argumentos*/
+
+    @include letra(#0B2545); /*aqui ponemos el valor de $color*/
     font-weight: 500;
     
 
