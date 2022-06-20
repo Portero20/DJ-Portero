@@ -610,6 +610,14 @@ main #grilla .card3 .card-cuerpo .botoncard {
     height: 200px;
   }
 }
+/*Media icono para todas las secciones solo de 480px*/
+@media (max-width: 480px) {
+  .icono:hover {
+    transform: scale(1.5);
+    transition-property: all;
+    transition-duration: 2s;
+  }
+}
 /*Creamos una clase generica*/
 .Previa-title, .previa--titulo {
   color: blueviolet;
