@@ -34,6 +34,11 @@ header .navigator a {
   height: 35px;
   margin-left: 0px;
 }
+.icono:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 2s;
+}
 
 /*Footer en todas las secciones*/
 footer {
@@ -631,10 +636,12 @@ main #grilla .card3 .card-cuerpo .botoncard {
   color: #231F20;
 }
 
-/*Declaramos el mixin, le ponemos un nombre y le declaramos sus claves*/
+/*Declaramos un mixin generico en este caso de $color, le ponemos un nombre y le declaramos sus claves*/
 /*Llamamos a las clases (Iluminacion, Maquina de humo y Ambientacion en la sección de Servicios)*/
 .iluminacion, .maquina-humo, .ambiente {
+  /*Llamamos al mixin con include y le pasamos los argumentos*/
   color: #0B2545;
+  /*aqui ponemos el valor de $color*/
   font-weight: 500;
 }
 
