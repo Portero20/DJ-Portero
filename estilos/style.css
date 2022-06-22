@@ -550,7 +550,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
     width: 100%;
   }
 }
-/*Media portfolio desde 1272px hasta 480px*/
+/*Media portfolio desde 1272px hasta 375px*/
 @media (max-width: 1272px) {
   #grilla2 {
     background-color: white;
@@ -582,18 +582,6 @@ main #grilla .card3 .card-cuerpo .botoncard {
     margin-top: 100px;
   }
 }
-@media (min-width: 642px) and (max-width: 794px) {
-  #grilla2 {
-    background-color: white;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr 2fr;
-  }
-  #grilla2 .card2 {
-    margin: 30px;
-    margin-top: 100px;
-  }
-}
 @media (max-width: 790px) {
   #grilla2 {
     background-color: white;
@@ -604,6 +592,18 @@ main #grilla .card3 .card-cuerpo .botoncard {
   }
   #grilla2 .card2 {
     margin-left: 260px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 642px) and (max-width: 794px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+  }
+  #grilla2 .card2 {
+    margin: 30px;
     margin-top: 100px;
   }
 }

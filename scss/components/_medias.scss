@@ -87,7 +87,7 @@
 
 }
 
-/*Media portfolio desde 1272px hasta 480px*/
+/*Media portfolio desde 1272px hasta 375px*/
 
 @media (max-width:1272px){
 
@@ -144,29 +144,6 @@
 
 }
 
-
-
-@media (min-width:642px)and(max-width:794px){
-
-
-    #grilla2{
-
-        background-color: white;
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        grid-template-rows: 2fr 2fr;
-
-        .card2{
-
-            margin: 30px;
-            margin-top: 100px;
-
-        }
-
-    }
-
-}
-
 @media (max-width:790px){
 
     #grilla2{
@@ -191,6 +168,31 @@
 
 
 }
+
+
+
+@media (min-width:642px)and(max-width:794px){
+
+
+    #grilla2{
+
+        background-color: white;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
+
+        .card2{
+
+            margin: 30px;
+            margin-top: 100px;
+
+        }
+
+    }
+
+}
+
+
 
 @media (max-width:582px){
 
