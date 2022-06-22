@@ -685,6 +685,71 @@ main #grilla .card3 .card-cuerpo .botoncard {
     margin-top: 100px;
   }
 }
+@media (min-width: 481px) and (max-width: 490px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 90px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 491px) and (max-width: 520px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 100px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 521px) and (max-width: 550px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 100px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 550px) and (max-width: 580px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 130px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 580px) and (max-width: 630px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 150px;
+    margin-top: 100px;
+  }
+}
 /*Media sobremi solo de 480px*/
 @media (max-width: 480px) {
   .imagenres {
