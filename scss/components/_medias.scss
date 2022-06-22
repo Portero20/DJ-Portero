@@ -244,7 +244,7 @@
 
 
 
-@media (min-width:375px)and(max-width:414px){
+@media (min-width:375px)and(max-width:412px){
 
     #grilla2{
 
@@ -256,7 +256,7 @@
 
         .card2{
 
-            margin: 45px;
+            margin: 60px;
             margin-top: 100px;
         }
         
@@ -265,6 +265,30 @@
     
     }
 
+
+
+}
+
+@media(max-width:414px){
+
+    #grilla2{
+
+        background-color: white;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
+        gap: 30px;
+
+        .card2{
+
+            margin: 60px;
+            margin-top: 100px;
+        }
+        
+        
+        
+    
+    }
 
 
 }
