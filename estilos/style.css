@@ -595,7 +595,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
     margin-top: 100px;
   }
 }
-@media (min-width: 642px) and (max-width: 794px) {
+@media (max-width: 794px) {
   #grilla2 {
     background-color: white;
     display: grid;
@@ -620,7 +620,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
     margin-top: 100px;
   }
 }
-@media (min-width: 480px) and (max-width: 488px) {
+@media (max-width: 583px) {
   #grilla2 {
     background-color: white;
     display: grid;
@@ -633,7 +633,33 @@ main #grilla .card3 .card-cuerpo .botoncard {
     margin-top: 100px;
   }
 }
-@media (min-width: 375px) and (max-width: 412px) {
+@media (max-width: 713px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 200px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 480px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 100px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 455px) {
   #grilla2 {
     background-color: white;
     display: grid;
@@ -646,7 +672,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
     margin-top: 100px;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #grilla2 {
     background-color: white;
     display: grid;
@@ -655,7 +681,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
     gap: 30px;
   }
   #grilla2 .card2 {
-    margin: 60px;
+    margin: 40px;
     margin-top: 100px;
   }
 }
