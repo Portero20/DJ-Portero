@@ -569,16 +569,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
     gap: 80px;
   }
 }
-@media (max-width: 804px) {
-  #grilla2 {
-    background-color: white;
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 2fr;
-    gap: 80px;
-  }
-}
-@media (max-width: 804px) {
+@media (max-width: 833px) {
   #grilla2 {
     background-color: white;
     display: grid;
@@ -586,23 +577,73 @@ main #grilla .card3 .card-cuerpo .botoncard {
     grid-template-rows: 2fr 2fr;
     gap: 80px;
   }
-}
-@media (max-width: 800px) {
-  #grilla2 {
-    background-color: white;
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 2fr;
-    gap: 80px;
+  #grilla2 .card2 {
+    margin: 40px;
+    margin-top: 100px;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 642px) and (max-width: 794px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+  }
+  #grilla2 .card2 {
+    margin: 30px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 790px) {
   #grilla2 {
     background-color: white;
     display: grid;
     grid-template-columns: 2fr;
     grid-template-rows: 2fr;
-    gap: 80px;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin-left: 260px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 582px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 140px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 480px) and (max-width: 488px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 90px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 45px;
+    margin-top: 100px;
   }
 }
 /*Media sobremi solo de 480px*/
