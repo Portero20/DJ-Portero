@@ -251,7 +251,7 @@ main .preguntas .accordion-item button {
 
 /*Sección Contacto SASS*/
 .grilla5 {
-  background-color: #2C3D55;
+  background-color: #313D5A;
   margin-top: -30px;
   margin-bottom: -50px;
   padding: 40px;
@@ -309,7 +309,7 @@ form textarea {
   font-weight: bolder;
 }
 form #boton {
-  background-color: #2C3D55;
+  background-color: #313D5A;
   color: white;
   padding: 20px;
 }
