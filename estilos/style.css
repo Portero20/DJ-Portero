@@ -251,7 +251,7 @@ main .preguntas .accordion-item button {
 
 /*Sección Contacto SASS*/
 .grilla5 {
-  background-color: #31384A;
+  background-color: #2C3D55;
   margin-top: -30px;
   margin-bottom: -50px;
   padding: 40px;
@@ -309,7 +309,7 @@ form textarea {
   font-weight: bolder;
 }
 form #boton {
-  background-color: #31384A;
+  background-color: #2C3D55;
   color: white;
   padding: 20px;
 }
@@ -794,7 +794,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
 /*Llamamos a las clases (Iluminacion, Maquina de humo y Ambientacion en la sección de Servicios)*/
 .iluminacion, .maquina-humo, .ambiente {
   /*Llamamos al mixin con include y le pasamos los argumentos*/
-  color: #0B2545;
+  color: #0E1116;
   /*aqui ponemos el valor de $color*/
   font-weight: 500;
 }
