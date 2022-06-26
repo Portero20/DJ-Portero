@@ -544,6 +544,16 @@ main #grilla .card3 .card-cuerpo .botoncard {
     width: 300px;
   }
 }
+@media (max-width: 375px) {
+  .logoInicio {
+    margin-left: -23px;
+  }
+}
+@media (max-width: 390px) {
+  .logoInicio {
+    margin-left: -22px;
+  }
+}
 /*Media form solo de 480px*/
 @media (max-width: 480px) {
   form {
