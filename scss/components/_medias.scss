@@ -34,9 +34,11 @@
 
 
 
-    .pse-enlaces::after{
+    .pse-enlaces{
 
         
+       &::after{
+
         content: "";
         position: absolute;
         width: 55px;
@@ -47,13 +49,23 @@
         transform: scaleX(0);
         transform-origin: bottom right;
         transition: transform 0.6s ease-out;
+
+       }
+
+           
+
+        
     
     }
     
-    .pse-enlaces:hover:after{
+    .pse-enlaces{
     
-        transform: scaleX(1);
-        transform-origin: bottom left;
+        &:hover:after{
+
+            transform: scaleX(1);
+            transform-origin: bottom left;
+
+        }
     
     }
 
@@ -349,7 +361,7 @@
 
         .card2{
 
-            
+
             margin-top: 100px;
             margin-left: -25px;
             height: 500px;
@@ -427,6 +439,30 @@
         .card2{
 
             margin: 50px;
+            margin-top: 100px;
+        }
+        
+        
+        
+    
+    }
+
+
+}
+
+@media(min-width:430px)and(max-width:480px){
+
+    #grilla2{
+
+        background-color: white;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
+        gap: 30px;
+
+        .card2{
+
+            margin: 70px;
             margin-top: 100px;
         }
         

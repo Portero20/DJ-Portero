@@ -736,6 +736,19 @@ main #grilla .card3 .card-cuerpo .botoncard {
     margin-top: 100px;
   }
 }
+@media (min-width: 430px) and (max-width: 480px) {
+  #grilla2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    gap: 30px;
+  }
+  #grilla2 .card2 {
+    margin: 70px;
+    margin-top: 100px;
+  }
+}
 @media (min-width: 481px) and (max-width: 490px) {
   #grilla2 {
     background-color: white;
