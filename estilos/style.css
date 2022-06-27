@@ -561,7 +561,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
     width: 100%;
   }
 }
-/*Media portfolio desde 1272px hasta 375px*/
+/*Media portfolio desde 280px hasta 1272px*/
 @media (max-width: 1272px) {
   #grilla2 {
     background-color: white;

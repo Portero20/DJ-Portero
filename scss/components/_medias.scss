@@ -36,6 +36,7 @@
 
     .pse-enlaces::after{
 
+        
         content: "";
         position: absolute;
         width: 55px;
@@ -105,7 +106,7 @@
 
 }
 
-/*Media portfolio desde 1272px hasta 375px*/
+/*Media portfolio desde 280px hasta 1272px*/
 
 @media (max-width:1272px){
 
@@ -348,7 +349,7 @@
 
         .card2{
 
-            // margin: 20px;
+            
             margin-top: 100px;
             margin-left: -25px;
             height: 500px;
