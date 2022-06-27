@@ -335,9 +335,8 @@
 
 }
 
+@media(min-width:280px)and(max-width:391px){
 
-
-@media(max-width:375px){
 
     #grilla2{
 
@@ -349,7 +348,33 @@
 
         .card2{
 
-            margin: 40px;
+            // margin: 20px;
+            margin-top: 100px;
+            margin-left: -25px;
+            height: 500px;
+        }
+        
+        
+        
+    
+    }
+
+
+}
+
+@media(min-width:360px)and(max-width:375px){
+
+    #grilla2{
+
+        background-color: white;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
+        gap: 30px;
+
+        .card2{
+
+            margin: 20px;
             margin-top: 100px;
         }
         
@@ -360,6 +385,60 @@
 
 
 }
+
+
+
+@media(min-width:375px)and(max-width:412px){
+
+    #grilla2{
+
+        background-color: white;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
+        gap: 30px;
+
+        .card2{
+
+            margin: 20px;
+            margin-top: 100px;
+        }
+        
+        
+        
+    
+    }
+
+
+}
+
+
+@media(min-width:412px)and(max-width:430px){
+
+    #grilla2{
+
+        background-color: white;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
+        gap: 30px;
+
+        .card2{
+
+            margin: 50px;
+            margin-top: 100px;
+        }
+        
+        
+        
+    
+    }
+
+
+}
+
+
+
 
 @media(min-width:481px) and (max-width:490px){
 
@@ -397,7 +476,7 @@
 
         .card2{
 
-            margin: 100px;
+            margin: 80px;
             margin-top: 100px;
         }
         
@@ -480,6 +559,8 @@
 
 
 }
+
+
 
 /*Media sobremi solo de 480px*/
 
