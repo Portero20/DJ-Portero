@@ -1355,6 +1355,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
   font-weight: 500;
 }
 
+/*Mixin letra "galeria de fotos"*/
 .galeria-fotos {
   color: #fff;
 }
