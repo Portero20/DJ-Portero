@@ -104,6 +104,7 @@
 
 }
 
+//Medias queries seccion galería de fotos desde 375px hasta 1300px
 @media(min-width:375px) and (max-width:412px){
 
     #grilla7{
@@ -247,32 +248,38 @@
         .djimagen{
 
             width: 390px;
+            margin-left: 5px;
            
 
         }
         .djimagen2{
 
             width: 390px;
+            margin-left: 5px;
 
         }
         .djimagen3{
 
             width: 390px;
+            margin-left: 5px;
 
         }
         .djimagen4{
 
             width: 390px;
+            margin-left: 5px;
 
         }
         .djimagen5{
 
             width: 390px;
+            margin-left: 5px;
 
         }
         .djimagen6{
 
             width: 390px;
+            margin-left: 5px;
 
         }
 
@@ -580,7 +587,7 @@
 
 }
 
-@media(min-width:700px)and(max-width:800px){
+@media(min-width:700px)and(max-width:830px){
 
     #grilla7{
 
@@ -640,6 +647,194 @@
     }
 
 }
+
+@media(min-width:830px)and(max-width:1000px){
+
+    #grilla7{
+
+        display: grid;
+        background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
+        background-size: cover;
+        padding: -30px;
+        gap: 30px;
+        margin-bottom: 0px;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
+        
+        
+
+        .djimagen{
+
+            width: 390px;
+            margin-left: -20px;
+            
+
+        }
+        .djimagen2{
+
+            width: 390px;
+            margin-left: -20px;
+
+        }
+        .djimagen3{
+
+            width: 390px;
+            margin-left: -20px;
+
+        }
+        .djimagen4{
+
+            width: 390px;
+            margin-left: -20px;
+
+        }
+        .djimagen5{
+
+            width: 390px;
+            margin-left: -20px;
+
+        }
+        .djimagen6{
+
+            width: 390px;
+            margin-left: -20px;
+
+        }
+
+
+        
+        
+    
+    }
+
+}
+
+@media(min-width:1000px)and(max-width:1200px){
+
+    #grilla7{
+
+        display: grid;
+        background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
+        background-size: cover;
+        padding: -30px;
+        gap: 30px;
+        margin-bottom: 0px;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
+        
+        
+
+        .djimagen{
+
+            width: 390px;
+            margin-left: 30px;
+            
+
+        }
+        .djimagen2{
+
+            width: 390px;
+            margin-left: 30px;
+
+        }
+        .djimagen3{
+
+            width: 390px;
+            margin-left: 30px;
+
+        }
+        .djimagen4{
+
+            width: 390px;
+            margin-left: 30px;
+
+        }
+        .djimagen5{
+
+            width: 390px;
+            margin-left: 30px;
+
+        }
+        .djimagen6{
+
+            width: 390px;
+            margin-left: 30px;
+
+        }
+
+
+        
+        
+    
+    }
+
+}
+
+@media(min-width:1200px)and(max-width:1300px){
+
+    #grilla7{
+
+        display: grid;
+        background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
+        background-size: cover;
+        padding: -30px;
+        gap: 30px;
+        margin-bottom: 0px;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
+        
+        
+
+        .djimagen{
+
+            width: 390px;
+            margin-left: 70px;
+            
+
+        }
+        .djimagen2{
+
+            width: 390px;
+            margin-left: 70px;
+
+        }
+        .djimagen3{
+
+            width: 390px;
+            margin-left: 70px;
+
+        }
+        .djimagen4{
+
+            width: 390px;
+            margin-left: 70px;
+
+        }
+        .djimagen5{
+
+            width: 390px;
+            margin-left: 70px;
+
+        }
+        .djimagen6{
+
+            width: 390px;
+            margin-left: 70px;
+
+        }
+
+
+        
+        
+    
+    }
+
+}
+
+
+
+
+
 
 
 /*Media form solo de 480px*/

@@ -18,3 +18,18 @@
     
 
 }
+
+
+//Mixin letra "galeria de fotos"
+@mixin galeria-letra($colorgal){
+
+    color: $colorgal;
+
+}
+
+//Llamamos al mixin con include y le pasamos sus argumentos
+.galeria-fotos{
+
+    @include galeria-letra(#fff)
+
+}

@@ -253,15 +253,14 @@ main .preguntas .accordion-item button {
   text-align: center;
   padding: 60px;
   font-size: 40px;
-  color: white;
-  background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
+  background-image: url(../img/32052.jpg);
   background-size: cover;
   margin-bottom: 0px;
 }
 
 #grilla7 {
   display: grid;
-  background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
+  background-image: url(../img/32052.jpg);
   background-size: cover;
   padding: 40px;
   gap: 30px;
@@ -272,20 +271,50 @@ main .preguntas .accordion-item button {
 #grilla7 .djimagen {
   height: 250px;
 }
+#grilla7 .djimagen:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 0.8s;
+}
 #grilla7 .djimagen2 {
   height: 250px;
+}
+#grilla7 .djimagen2:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 0.8s;
 }
 #grilla7 .djimagen3 {
   height: 250px;
 }
+#grilla7 .djimagen3:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 0.8s;
+}
 #grilla7 .djimagen4 {
   height: 250px;
+}
+#grilla7 .djimagen4:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 0.8s;
 }
 #grilla7 .djimagen5 {
   height: 250px;
 }
+#grilla7 .djimagen5:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 0.8s;
+}
 #grilla7 .djimagen6 {
   height: 250px;
+}
+#grilla7 .djimagen6:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 0.8s;
 }
 
 /*Sección Contacto SASS*/
@@ -679,21 +708,27 @@ main #grilla .card3 .card-cuerpo .botoncard {
   }
   #grilla7 .djimagen {
     width: 390px;
+    margin-left: 5px;
   }
   #grilla7 .djimagen2 {
     width: 390px;
+    margin-left: 5px;
   }
   #grilla7 .djimagen3 {
     width: 390px;
+    margin-left: 5px;
   }
   #grilla7 .djimagen4 {
     width: 390px;
+    margin-left: 5px;
   }
   #grilla7 .djimagen5 {
     width: 390px;
+    margin-left: 5px;
   }
   #grilla7 .djimagen6 {
     width: 390px;
+    margin-left: 5px;
   }
 }
 @media (min-width: 512px) and (max-width: 550px) {
@@ -868,7 +903,7 @@ main #grilla .card3 .card-cuerpo .botoncard {
     margin-left: 90px;
   }
 }
-@media (min-width: 700px) and (max-width: 800px) {
+@media (min-width: 700px) and (max-width: 830px) {
   #grilla7 {
     display: grid;
     background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
@@ -902,6 +937,114 @@ main #grilla .card3 .card-cuerpo .botoncard {
   #grilla7 .djimagen6 {
     width: 390px;
     margin-left: 110px;
+  }
+}
+@media (min-width: 830px) and (max-width: 1000px) {
+  #grilla7 {
+    display: grid;
+    background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
+    background-size: cover;
+    padding: -30px;
+    gap: 30px;
+    margin-bottom: 0px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+  }
+  #grilla7 .djimagen {
+    width: 390px;
+    margin-left: -20px;
+  }
+  #grilla7 .djimagen2 {
+    width: 390px;
+    margin-left: -20px;
+  }
+  #grilla7 .djimagen3 {
+    width: 390px;
+    margin-left: -20px;
+  }
+  #grilla7 .djimagen4 {
+    width: 390px;
+    margin-left: -20px;
+  }
+  #grilla7 .djimagen5 {
+    width: 390px;
+    margin-left: -20px;
+  }
+  #grilla7 .djimagen6 {
+    width: 390px;
+    margin-left: -20px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  #grilla7 {
+    display: grid;
+    background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
+    background-size: cover;
+    padding: -30px;
+    gap: 30px;
+    margin-bottom: 0px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+  }
+  #grilla7 .djimagen {
+    width: 390px;
+    margin-left: 30px;
+  }
+  #grilla7 .djimagen2 {
+    width: 390px;
+    margin-left: 30px;
+  }
+  #grilla7 .djimagen3 {
+    width: 390px;
+    margin-left: 30px;
+  }
+  #grilla7 .djimagen4 {
+    width: 390px;
+    margin-left: 30px;
+  }
+  #grilla7 .djimagen5 {
+    width: 390px;
+    margin-left: 30px;
+  }
+  #grilla7 .djimagen6 {
+    width: 390px;
+    margin-left: 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+  #grilla7 {
+    display: grid;
+    background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
+    background-size: cover;
+    padding: -30px;
+    gap: 30px;
+    margin-bottom: 0px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+  }
+  #grilla7 .djimagen {
+    width: 390px;
+    margin-left: 70px;
+  }
+  #grilla7 .djimagen2 {
+    width: 390px;
+    margin-left: 70px;
+  }
+  #grilla7 .djimagen3 {
+    width: 390px;
+    margin-left: 70px;
+  }
+  #grilla7 .djimagen4 {
+    width: 390px;
+    margin-left: 70px;
+  }
+  #grilla7 .djimagen5 {
+    width: 390px;
+    margin-left: 70px;
+  }
+  #grilla7 .djimagen6 {
+    width: 390px;
+    margin-left: 70px;
   }
 }
 /*Media form solo de 480px*/
@@ -1210,6 +1353,10 @@ main #grilla .card3 .card-cuerpo .botoncard {
   color: #0E1116;
   /*aqui ponemos el valor de $color*/
   font-weight: 500;
+}
+
+.galeria-fotos {
+  color: #fff;
 }
 
 /*Aquí solo me quedan imports*//*# sourceMappingURL=style.css.map */
