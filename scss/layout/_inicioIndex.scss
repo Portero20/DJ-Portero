@@ -282,6 +282,72 @@ main{
         }
 
     }
+
+   
+
+    
     
 
 }
+
+.galeria-fotos{
+
+    text-align: center;
+    padding: 60px;
+    font-size: 40px;
+    color: white;
+    background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
+    background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+#grilla7{
+
+    display: grid;
+    background-image: url(../img/abstract-texture-hd-4k-wallpaper-preview.jpg);
+    background-size: cover;
+    padding: 40px;
+    gap: 30px;
+    margin-bottom: -240px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+
+
+
+    .djimagen{
+
+        height: 250px;
+        
+
+    }
+    .djimagen2{
+
+        height: 250px;
+
+    }
+    .djimagen3{
+
+        height: 250px;
+
+    }
+    .djimagen4{
+
+        height: 250px;
+
+    }
+    .djimagen5{
+
+        height: 250px;
+
+    }
+    .djimagen6{
+
+        height: 250px;
+
+    }
+    
+    
+
+}
+
